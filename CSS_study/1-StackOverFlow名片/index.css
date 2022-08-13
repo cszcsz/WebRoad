@@ -1,0 +1,73 @@
+body{
+    margin: 0;
+}
+
+.user_card{
+    width: 240px;
+    height: 75px;
+    margin: 100px auto;
+    padding: 5px 6px 7px 7px;
+    box-sizing: border-box;
+    background-color:#d9eaf7
+}
+
+.user_card_head{
+    font-size: 12px;
+    color: #6a737c;
+    margin-top: 1px;
+    margin-bottom: 4px;
+}
+
+.user_card_body_photo > img{
+    width: 32px;
+    height: 32px;
+    
+}
+
+.user_card_body_photo{
+    display: inline-block;
+}
+
+.user_card_body_info{
+    display: inline-block;
+    margin-left: 8px;
+}
+
+.user_card_body_info_username{
+    height: 16px;
+    line-height: 16px;
+}
+
+.user_card_body_info_username > a{
+    font-size: 13px;
+    color: #0074cc;
+    text-decoration: none;
+}
+
+.user_card_body_info_reputation{
+    height: 16px;
+    line-height: 16px;
+    font-size: 12px;
+    color: #838c95;
+}
+
+.user_card_body_info_reputation > span{
+    color: #6a737c;
+    font-weight: bold;
+}
+
+.user_card_body_info_reputation_item{
+    width: 6px;
+    height: 6px;
+    display: inline-block;
+}
+
+.user_card_body_info_reputation_item:nth-child(2){
+    background-color: #FFCC01;
+}
+.user_card_body_info_reputation_item:nth-child(3){
+    background-color: #B4B8BC;
+}
+.user_card_body_info_reputation_item:nth-child(4){
+    background-color: #D1A684;
+}
